@@ -3,25 +3,176 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Rudra Abrol - Resume</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
   <style>
     body {
-      font-family: sans-serif;
-      background: linear-gradient(to right, #74ebd5, #acb6e5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f6f9;
+      color: #333;
     }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #0d6efd;
+    }
+
     h1 {
-      color: white;
-      text-shadow: 1px 1px 4px #000;
+      font-size: 30px;
+      margin-bottom: 5px;
+      color: #0d6efd;
+    }
+
+    .contact {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #0d6efd;
+      font-size: 22px;
+      margin-bottom: 10px;
+      border-left: 5px solid #0d6efd;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li::marker {
+      color: #0d6efd;
+    }
+
+    .section-content {
+      background: #f8f9fc;
+      padding: 15px 20px;
+      border-left: 4px solid #0d6efd;
+      border-radius: 8px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p, li {
+        font-size: 14px;
+      }
+    }
+
+    .icon {
+      margin-right: 8px;
+      color: #0d6efd;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Rudra's Portfolio</h1>
+
+<div class="container">
+  <div class="header">
+    <img src="https://ui-avatars.com/api/?name=Rudra+Abrol&background=0D8ABC&color=fff&size=200" alt="Rudra Abrol" />
+    <h1>Rudra Abrol</h1>
+    <div class="contact">
+      <i class="fas fa-envelope icon"></i> rudraabrol7@gmail.com |
+      <i class="fas fa-phone-alt icon"></i> +91-9528999047
+    </div>
+  </div>
+
+  <section>
+    <h2><i class="fas fa-user icon"></i>Profile</h2>
+    <div class="section-content">
+      <p>Motivated and detail-oriented Computer Science student with strong foundational knowledge in web development, object-oriented programming, and data structures. Passionate about building real-world projects and eager to contribute to dynamic teams.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><i class="fas fa-cogs icon"></i>Skills</h2>
+    <div class="section-content">
+      <ul>
+        <li><strong>Front-End:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Programming:</strong> Java (OOP), C (Data Structures)</li>
+        <li><strong>Database:</strong> Basic knowledge of DBMS</li>
+        <li><strong>Other:</strong> Logical Thinking & Problem Solving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><i class="fas fa-graduation-cap icon"></i>Education</h2>
+    <div class="section-content">
+      <p><strong>High School (10th Grade)</strong> – K.M.P.S</p>
+      <p><strong>Diploma in Computer Science (Pursuing)</strong> – G.L.A University</p>
+      <p><strong>Expected Completion:</strong> 2026</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><i class="fas fa-project-diagram icon"></i>Projects</h2>
+    <div class="section-content">
+      <ul>
+        <li><strong>Portfolio Website:</strong> Designed and developed a personal portfolio to showcase skills and achievements.</li>
+        <li><strong>To-Do List Web App:</strong> JavaScript-based task manager with DOM manipulation and event handling.</li>
+        <li><strong>working on designing a E Commers website ,Typing tutor web app.</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Rudra Abrol. All rights reserved.
+  </div>
+</div>
+
 </body>
 </html>
-
